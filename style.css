@@ -1,0 +1,65 @@
+/* Penjelasan: Mengatur background gradasi dan memposisikan form di tengah layar */
+body.login-body {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.login-form p {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; /* Agar padding tidak merusak lebar */
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #2980b9;
+}
+
+.alert-error {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
